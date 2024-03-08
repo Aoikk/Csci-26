@@ -1,0 +1,53 @@
+=========================================
+ _____ ___   ___  ____   ___   ___  
+|  ___/ _ \ / _ \| __ ) / _ \ / _ \ 
+| |_ | | | | | | |  _ \| | | | | | |
+|  _|| |_| | |_| | |_) | |_| | |_| |
+|_|   \___/ \___/|____/ \___/ \___/ 
+                                    
+ _     ___ _____ _____ _____ ______   __
+| |   / _ \_   _|_   _| ____|  _ \ \ / /
+| |  | | | || |   | | |  _| | |_) \ V / 
+| |__| |_| || |   | | | |___|  _ < | |  
+|_____\___/ |_|   |_| |_____|_| \_\|_|  
+                                        
+=========================================
+
+~/fooboo
+
+1) You must implement a powerball lottery game in which you draw 6 balls from a set of balls numbered 1 to 69 randomly.
+
+2) Use srand to seed the random number generator, the seed should come from the user
+
+3) The player guesses 6 numbers from 1 to 69, you tell them how many were correct. They do not have to match the order the balls are drawn, just if they have the number in their list of guesses. Print out how much money they win, assuming a $2 bet. Here is the payout table:
+
+6 out of 6: $435 Million
+5 out of 6: $1 Million
+4 out of 6: $50,000
+3 out of 6: $100
+2 out of 6: $7
+1 out of 6: $4
+0 out of 6: $0
+
+4) You must make an input tester for your code. Write a text file containing the input and output of 10 test cases. Paste them in Canvas here to be graded. I am not providing an input tester. They must cover a broad ranged of possibilities, such as winning the jackpock, missing all numbers, getting 1 hit, getting 2 hits, etc., using the power play function, and BAD INPUT of course.
+
+5) Calculate the odds of each outcome (0 balls, 1 ball, 2 balls, etc.) and paste them in Canvas here.
+
+Extra Credit: Add in a power play feature where you multiply non-jackpot prizes by 2x, 3x, 4x, 5x, or 10x. The multiplier is randomly picked.
+
+Extra Credit: Use the colors library to make it look nice and clickable and stuff
+
+So how do you like do an input test file?
+
+1) Make a text file that contains the letters that would be typed in one the console (cin) when running the program. Let's say you save it in a file called "inputfile0"
+
+2) Feed the text file into the program like this and make sure that the output looks right: a.out < inputfile0
+
+3) If it looks right, write the output into a matching outputfile like this: a.out < inputfile0 > outputfile0
+
+Possible BAD INPUT:
+
+1) Any non-integer input
+2) Numbers less than 1 or greater than 69
+3) Duplicate numbers in the guess
+4) User doesn't choose 6 numbers
