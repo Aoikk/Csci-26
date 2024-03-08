@@ -1,0 +1,22 @@
+=========================================================
+ _______  ______ _____ _       ____    _    ____    _    
+| ____\ \/ / ___| ____| |     / ___|  / \  / ___|  / \   
+|  _|  \  / |   |  _| | |     \___ \ / _ \| |  _  / _ \  
+| |___ /  \ |___| |___| |___   ___) / ___ \ |_| |/ ___ \ 
+|_____/_/\_\____|_____|_____| |____/_/   \_\____/_/   \_\
+                                                         
+=========================================================
+
+This is a job interview question at Microsoft.
+
+In Excel column names are named from A to Z, and then after that they become
+AA, AB, AC, AD, ..., AZ, then BA, BB, BC, etc.
+
+In this assignment you must convert a column number to an Excel column label,
+and vice versa. A is 1, B is 2, C is 3, D is 4, etc. AA is 27, AB is 28, etc.
+
+So if they convert 4 to Excel column label you output "D"
+
+If they convert BA to integer, you output 53.
+
+
